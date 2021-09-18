@@ -1,0 +1,16 @@
+@startuml
+
+class Student {
+    - name : String
+    - grade : char
+    - group : int
+    - secretNickName : String
+
+    + Student (name: String, grade : char, group : int)
+    + getStudentName() : String
+    + getStudentGrade() : char
+    + upgradeStudentGrade() : void
+    + downgradeStudentGrade() : void
+}
+
+@enduml
